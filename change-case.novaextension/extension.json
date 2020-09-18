@@ -11,7 +11,7 @@
     ],
     "main": "main.dist.js",
     "commands": {
-        "command-palette": [
+        "editor": [
             {
                 "title": "Make Camel Case",
                 "command": "camel",
