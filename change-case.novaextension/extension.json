@@ -1,0 +1,37 @@
+{
+    "identifier": "daytonlowell.change-case",
+    "name": "Change Case",
+    "organization": "daytonlowell",
+    "description": "Provides access to quickly change the case of selected text",
+    "version": "1.0.0",
+    "repository": "https://github.com/daytonlowell/nova-change-case",
+    "bugs": "https://github.com/daytonlowell/nova-change-case/issues",
+    "categories": [
+        "commands"
+    ],
+    "main": "main.dist.js",
+    "commands": {
+        "command-palette": [
+            {
+                "title": "Make Camel Case",
+                "command": "camel",
+                "when": "editorHasFocus && editorHasSelection"
+            },
+            {
+                "title": "Make Pascal Case",
+                "command": "pascal",
+                "when": "editorHasFocus && editorHasSelection"
+            },
+            {
+                "title": "Make Snake Case",
+                "command": "snake",
+                "when": "editorHasFocus && editorHasSelection"
+            },
+            {
+                "title": "Make Kebab Case",
+                "command": "kebab",
+                "when": "editorHasFocus && editorHasSelection"
+            }
+        ]
+    }
+}
